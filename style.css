@@ -1,0 +1,61 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#0a1f44;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+background:url("https://upload.wikimedia.org/wikipedia/commons/3/3f/Programming_code.jpg");
+background-size:cover;
+}
+
+.btn{
+background:#ffd700;
+padding:10px 20px;
+text-decoration:none;
+color:black;
+}
+
+.content{
+max-width:900px;
+margin:auto;
+padding:40px;
+background:white;
+}
+
+img{
+width:100%;
+border-radius:10px;
+margin:20px 0;
+}
+
+.fade{
+animation:fade 0.7s;
+}
+
+@keyframes fade{
+
+from{opacity:0;}
+
+to{opacity:1;}
+
+}
